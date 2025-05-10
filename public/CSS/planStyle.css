@@ -1,0 +1,10 @@
+.box {
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    border: solid rgb(138, 131, 188);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(246, 251, 255);
+    display: flex;
+    flex-direction: column;
+}
