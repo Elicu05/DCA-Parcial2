@@ -1,0 +1,154 @@
+{
+    "plants": [
+        {
+            "commonName": "Rosa",
+            "scientificName": "Rosa × centifolia",
+            "img": "https://mamabruja.com/wp-content/uploads/2021/10/ivan-jevtic-p7mo8-CG5Gs-unsplash-2-1200x800.jpg",
+            "type": "Flor",
+            "origin": "Europa",
+            "floweringSeason": "Primavera-Verano",
+            "sunExposure": "Pleno sol",
+            "watering": "Regular"
+        },
+        {
+            "commonName": "Girasol",
+            "scientificName": "Helianthus annuus",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sunflower_sky_backdrop.jpg",
+            "type": "Flor",
+            "origin": "América del Norte",
+            "floweringSeason": "Verano",
+            "sunExposure": "Pleno sol",
+            "watering": "Regular"
+        },
+        {
+            "commonName": "Tulipán",
+            "scientificName": "Tulipa gesneriana",
+            "img": "https://www.floristeriamorris.com/wp-content/uploads/todo-lo-que-necesitas-saber-sobre-tulipanes-cuidados-floracion-y-colores.jpg",
+            "type": "Flor",
+            "origin": "Asia Central",
+            "floweringSeason": "Primavera",
+            "sunExposure": "Pleno sol",
+            "watering": "Moderado"
+        },
+        {
+            "commonName": "Orquídea Mariposa",
+            "scientificName": "Phalaenopsis amabilis",
+            "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUpMltGyNDbyx_62cTiXQRlW1LOLFTtALRaC-IiZk2FzvTchZ5ZMpXODNqlodZd75_M6bwT4r6kBX44Vq_UqWoKkzIT3pbdNb6n522x-kff8rJCwceZF2uziMlx5BNTmN_yH_x8srSezw/s1600/narciso-blanco-y-rosa.jpg",
+            "type": "Orquídea",
+            "origin": "Sudeste Asiático",
+            "floweringSeason": "Todo el año",
+            "sunExposure": "Luz indirecta",
+            "watering": "Moderado"
+        },
+        {
+            "commonName": "Lavanda",
+            "scientificName": "Lavandula angustifolia",
+            "img": "https://www.interflora.es/blog/wp-content/uploads/lirios-grandes-1-1024x894.jpg",
+            "type": "Hierba",
+            "origin": "Mediterráneo",
+            "floweringSeason": "Verano",
+            "sunExposure": "Pleno sol",
+            "watering": "Bajo"
+        },
+        {
+            "commonName": "Cactus de Navidad",
+            "scientificName": "Schlumbergera truncata",
+            "img": "https://sembramos.com.co/wp-content/uploads/2022/12/calendula-planta-pixabay-1200x800.jpg",
+            "type": "Suculenta",
+            "origin": "Brasil",
+            "floweringSeason": "Invierno",
+            "sunExposure": "Luz indirecta",
+            "watering": "Bajo"
+        },
+        {
+            "commonName": "Bambú de la Suerte",
+            "scientificName": "Dracaena sanderiana",
+            "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/38101/large.jpg",
+            "type": "Planta de Interior",
+            "origin": "África Central",
+            "floweringSeason": "Rara vez florece",
+            "sunExposure": "Luz indirecta",
+            "watering": "Regular"
+        },
+        {
+            "commonName": "Monstera",
+            "scientificName": "Monstera deliciosa",
+            "img": "https://estag.fimagenes.com/img/v2/7e5/1103989_534017_900.jpg",
+            "type": "Planta Tropical",
+            "origin": "América Central",
+            "floweringSeason": "Rara vez florece",
+            "sunExposure": "Luz indirecta brillante",
+            "watering": "Regular"
+        },
+        {
+            "commonName": "Helecho Nido de Ave",
+            "scientificName": "Asplenium nidus",
+            "img": "https://www.consumer.es/app/uploads/2019/07/img_hortensia-azul.jpg",
+            "type": "Helecho",
+            "origin": "Asia Tropical",
+            "floweringSeason": "No florece",
+            "sunExposure": "Sombra parcial",
+            "watering": "Regular"
+        },
+        {
+            "commonName": "Planta del Dinero China",
+            "scientificName": "Pilea peperomioides",
+            "img": "https://bouqs.com/blog/wp-content/uploads/2024/08/shutterstock_2470487527-min.jpg",
+            "type": "Planta de Interior",
+            "origin": "China",
+            "floweringSeason": "Primavera",
+            "sunExposure": "Luz indirecta brillante",
+            "watering": "Moderado"
+        },
+        {
+            "commonName": "Begonia Rex",
+            "scientificName": "Begonia rex-cultorum",
+            "img": "https://alblancatelier.com/cdn/shop/products/simbologiapeoniaalblanc2_800x.jpg?v=1745654627",
+            "type": "Planta de Interior",
+            "origin": "India",
+            "floweringSeason": "Variable",
+            "sunExposure": "Sombra parcial",
+            "watering": "Regular"
+        },
+        {
+            "commonName": "Calathea Medallón",
+            "scientificName": "Calathea medallion",
+            "img": "https://www.floresyplantas.net/wp-content/uploads/flor-de-phalaenopsis.jpg",
+            "type": "Planta Tropical",
+            "origin": "América del Sur",
+            "floweringSeason": "Rara vez florece",
+            "sunExposure": "Sombra parcial",
+            "watering": "Regular"
+        },
+        {
+            "commonName": "Planta Serpiente",
+            "scientificName": "Sansevieria trifasciata",
+            "img": "https://www.lasaponaria.es/img/cms/800px-purple_iris_flower.jpg",
+            "type": "Suculenta",
+            "origin": "África Occidental",
+            "floweringSeason": "Rara vez florece",
+            "sunExposure": "Adaptable",
+            "watering": "Bajo"
+        },
+        {
+            "commonName": "Palmera Areca",
+            "scientificName": "Dypsis lutescens",
+            "img": "https://jardineros.com.co/wp-content/uploads/2022/01/Geranio-o-novio2.jpg",
+            "type": "Palmera",
+            "origin": "Madagascar",
+            "floweringSeason": "Primavera-Verano",
+            "sunExposure": "Luz indirecta brillante",
+            "watering": "Regular"
+        },
+        {
+            "commonName": "Ficus Lira",
+            "scientificName": "Ficus lyrata",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Single_lavender_flower02.jpg/1200px-Single_lavender_flower02.jpg",
+            "type": "Árbol de Interior",
+            "origin": "África Occidental",
+            "floweringSeason": "No florece en interior",
+            "sunExposure": "Luz indirecta brillante",
+            "watering": "Moderado"
+        }
+    ]
+} 

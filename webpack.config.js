@@ -21,7 +21,15 @@ export default {
                 // Aplica esta regla a archivos que coincidan con la expresión regular (archivos .ts o .tsx)
                 test: /\.tsx?$/,
                 // Utiliza 'ts-loader' para transpilar archivos TypeScript a JavaScript
-                use: 'ts-loader',
+                use: {
+                    loader: 'ts-loader',
+                    options: {
+                        transpileOnly: true, // For faster builds
+                        compilerOptions: {
+                            module: 'esnext',
+                        }
+                    }
+                },
                 // Excluye la carpeta 'node_modules' de esta regla
                 exclude: /node_modules/,
             },
@@ -37,8 +45,21 @@ export default {
         filename: 'bundle.js',
         // Ruta del directorio de salida, resuelta a partir del directorio actual
         path: path.resolve(__dirname, 'dist'),
+        publicPath: '/dist/'
     },
     devServer: {
-        port: 8082
+        port: 8083,
+        static: [
+            {
+                directory: path.join(__dirname, 'public'),
+                publicPath: '/'
+            },
+            {
+                directory: path.join(__dirname, 'dist'),
+                publicPath: '/dist'
+            }
+        ],
+        hot: true,
+        historyApiFallback: true
     }
 };

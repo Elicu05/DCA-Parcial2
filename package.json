@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
-    "start": "webpack serve --mode=development",
+    "start": "webpack serve --mode=development --open",
+    "dev": "webpack serve --mode=development --open",
     "lint": "eslint src/ --ext .ts,.js --report-unused-disable-directives",
     "lint:fix": "eslint src/ --ext .ts,.js --report-unused-disable-directives --fix",
     "prepare": "husky"

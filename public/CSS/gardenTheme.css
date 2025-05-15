@@ -1,0 +1,66 @@
+:host {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #f5fff5, #ffffff);
+    color: #2e4a2c;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #e0f4e8;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  button {
+    padding: 0.6rem 1.2rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #2e4a2c;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  button.active {
+    background-color: #a7e9af;
+    color: #264d36;
+    border-color: #88d498;
+  }
+  
+  button:hover:not(.active) {
+    background-color: #d2f1d2;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #3b603d;
+    text-shadow: 1px 1px 0 #ffffff;
+  }
+  
+  .plants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  plant-card {
+    transition: transform 0.3s;
+  }
+  
+  plant-card:hover {
+    transform: scale(1.03);
+  }

@@ -1,22 +1,38 @@
-export type Plant = {
-    commonName : string,
-    img: string,
-    origin : string,
-    watering : string
+export interface RawPlant {
+    common_name: string;
+    scientific_name: string;
+    img: string;
+    type: string;
+    origin: string;
+    flowering_season: string;
+    sun_exposure: string;
+    watering: string;
+}
 
+export interface Plant {
+    commonName: string;
+    scientificName: string;
+    img: string;
+    type: string;
+    origin: string;
+    floweringSeason: string;
+    sunExposure: string;
+    watering: string;
+}
+
+export const plantAdapter = (plant: RawPlant): Plant => {
+    return {
+        commonName: plant.common_name,
+        scientificName: plant.scientific_name,
+        img: plant.img,
+        type: plant.type,
+        origin: plant.origin,
+        floweringSeason: plant.flowering_season,
+        sunExposure: plant.sun_exposure,
+        watering: plant.watering
+    };
 };
 
-export const plantAdapter = (plant : Plant) => {
-    return {
-        commonName : plant.commonName,
-        img : plant.img,
-        origin : plant.origin,
-        watering : plant.watering
-    }
-    
-    }
-    export const plantsAdapter = (plant : Plant[]) => {
-        return plant.map(plant=> plantAdapter(plant))
-
-
+export const plantsAdapter = (plants: Plant[]): Plant[] => {
+    return plants;
 };
